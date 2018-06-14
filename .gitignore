@@ -46,6 +46,7 @@ nohup.out
 npm-debug.log
 setuptools*
 dist/
+static/
 start.bat
 supervisord.log
 supervisord.pid

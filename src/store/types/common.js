@@ -1,0 +1,17 @@
+export const PROGRESS_START = 'PROGRESS_START';
+export const PROGRESS_STOP = 'PROGRESS_STOP';
+export const API_SUCCESS = 'API_SUCCESS';
+export const API_FAILURE = 'API_FAILURE';
+export const MODAL_OPEN = 'MODAL_OPEN';
+export const MODAL_CLOSE = 'MODAL_CLOSE';
+export const SEARCH_MODE = 'SEARCH_MODE';
+
+export default {
+  PROGRESS_START,
+  PROGRESS_STOP,
+  API_SUCCESS,
+  API_FAILURE,
+  MODAL_OPEN,
+  MODAL_CLOSE,
+  SEARCH_MODE,
+};

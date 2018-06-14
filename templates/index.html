@@ -1,0 +1,16 @@
+{% load render_bundle from webpack_loader %}
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Example111</title>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    {% render_bundle 'manifest' %}
+    {% render_bundle 'vendor' %}
+    {% render_bundle 'app' %}
+  </body>
+</html>
