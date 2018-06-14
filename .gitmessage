@@ -1,0 +1,36 @@
+
+; <commit type>: <subject>
+;<----   Using a Maximum Of 50 Characters   ---->|
+;                                                |
+; -> Capitalize the subject line                 |
+; -> Use the imperative mood in the subject line |
+; -> Do not end the subject line with a period   |
+
+
+; --- COMMIT MESSAGE BODY ---
+;<----     Try To Limit Each Line to a Maximum Of 72 Characters   ---->|
+;                                                                      |
+; - Explain why this change is being made                              |
+; - Separate subject from body with a blank line                       |
+; - Use the body to explain what and why vs. how                       |
+; - Can use multiple lines with "-" for bullet points in body          |
+
+; --- TASK KEY ---
+; Provide links or keys to any relevant tickets, articles or other resources
+; Example:
+; Task: LC-100
+
+; --- COMMIT TYPES ---
+; Type can be 
+;    feat     (new feature)
+;    fix      (bug fix)
+;    refactor (refactoring production code)
+;    style    (formatting, missing semi colons, etc; no code change)
+;    docs     (changes to documentation)
+;    test     (adding or refactoring tests; no production code change)
+;    tools    (updating grunt tasks etc; no production code change)
+;
+; --- VIM configuration ---
+; if you're using vim as your default $EDITOR variable, then simply    |
+; put autocmd Filetype gitcommit setlocal spell textwidth=72           |
+; inside ~/.vimrc                                                      |
