@@ -1,29 +1,24 @@
-
-
-import HelloWorld from '@/components/HelloWorld';
-import SecondWorld from '@/components/SecondWorld';
-import TableTest from '@/components/TableTest';
 import Vue from 'vue';
 import Router from 'vue-router';
+import Home from '@/components/layout/TheHome';
+import Dashboard from '@/components/layout/TheDashboard';
 
 Vue.use(Router);
 
+const routes = [
+  {
+    path:      '/',
+    component: Home,
+  },
+  {
+    path:      '/dashboard',
+    component: Dashboard,
+  },
+];
+
 export default new Router({
-  routes: [
-    {
-      path:      '/',
-      name:      'HelloWorld',
-      component: HelloWorld,
-    },
-    {
-      path:      '/second',
-      name:      'SecondWorld',
-      component: SecondWorld,
-    },
-    {
-      path:      '/table',
-      name:      'TableTest',
-      component: TableTest,
-    },
-  ],
+  mode:               'history',
+  saveScrollPosition: true,
+  routes,
 });
+

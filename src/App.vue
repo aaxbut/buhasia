@@ -1,4 +1,5 @@
 <template>
+
   <div id="app">
     <div class="main-container">
       <center-conteiner>
@@ -9,27 +10,26 @@
 </template>
 
 <script lang="js">
-import CenterConteiner from '@/components/layout/TheCenterConteiner';
-/** 
+import CenterConteiner from '@/components/layout/TheCenterContainer';
+/**
  * @summary The main App Component
  */
 export default {
-  name: 'App',
+  name:       'App',
   components: {
-    CenterConteiter,
+    CenterConteiner,
   },
 };
 </script>
+
 <style lang="scss">
 @import 'assets/scss/app.scss';
 </style>
+
 <style>
-#app {
-  height: 100%;
-}
 
 .main-container {
+  width: 100%;
   height: 100%;
 }
 </style>
-
