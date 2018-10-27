@@ -1,10 +1,9 @@
 <template>
-
-  <div class="center-container">
+  <div>
     <NavigationPanel/>
-    <div class="splash section type-1">
+    <b-container class="col-lg-12">
       <SplashScreen/>
-    </div>
+    </b-container>
   </div>
 </template>
 
