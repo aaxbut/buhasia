@@ -25,7 +25,7 @@
       <b-navbar-nav class="ml-auto right">
         <div class="top-navigation">
           <span>
-            <b-nav-item href="#"
+            <b-nav-item href="#jump1"
                         class="btn top-navigation">
               About Us
             </b-nav-item>
